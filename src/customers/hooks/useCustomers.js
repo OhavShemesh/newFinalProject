@@ -175,9 +175,6 @@ export default function useCustomers() {
     }
     const deleteOrderFromCustomer = async (customerId, orderId) => {
         try {
-            console.log("customerId", customerId);
-            console.log("orderId", orderId);
-
 
             const response = await axios.patch(`${CustomersApi}/deleteOrderFromCustomer`, { customerId: customerId, orderId: orderId })
             const data = response.data
