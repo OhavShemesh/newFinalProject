@@ -123,7 +123,7 @@ export default function ManageMyOrdersComponent({
                                                 {order.productsAndQuantity && Array.isArray(order.productsAndQuantity) && order.productsAndQuantity.length > 0 ? (
                                                     order.productsAndQuantity.map((product) => (
                                                         <ListItem
-                                                            key={`${order._id}-${product.id}`} // Add unique key here
+                                                            key={`${order._id}-${product.id}`}
                                                             sx={{ color: 'black', typography: 'body1', padding: '0' }}
                                                         >
                                                             {product.quantity} x {toTitleCase(productNames[product.id]) || 'Unknown Product'}
