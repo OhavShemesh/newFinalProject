@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import ProfileComponent from './components/ProfileComponent';
 import { useCurrentCustomer } from '../provider/UserProvider';
 import useCustomers from '../hooks/useCustomers';
-import useForm from '../../formHelpers/useForm';
-import signupSchema from '../../formHelpers/schemas/signupSchema';
 import { Box, Container, Typography } from '@mui/material';
 import MiddleProfileComponent from './components/MiddleProfileComponent';
 import { ClipLoader } from 'react-spinners';

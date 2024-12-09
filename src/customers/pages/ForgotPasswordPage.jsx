@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Box, Typography } from "@mui/material";
 import useCustomers from "../hooks/useCustomers";
 import { useSnack } from "../../providers/SnackBarProvider";

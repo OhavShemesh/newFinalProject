@@ -1,7 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Box, Button, CardMedia, Grid, IconButton, Typography } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
-import { useSnack } from '../../providers/SnackBarProvider';
 import ROUTES from '../../router/routesModel';
 
 export default function CartComponent({ calculateTotalQuantity, calculateTotalPrice, customer, productDetails, toTitleCase, handleRemoveItemFromCart, handlePlaceOrder, cart, navigate, setSnack }) {

@@ -1,5 +1,5 @@
 import { Box, Button, CardMedia, Container, Typography } from '@mui/material';
-import React, { useState } from 'react';
+import React from 'react';
 import FormInputsForProfile from '../helper/FormInputsForProfile';
 
 export default function ProfileComponent({ customerDetails, handleChange, error, onSubmit, isFormValid }) {

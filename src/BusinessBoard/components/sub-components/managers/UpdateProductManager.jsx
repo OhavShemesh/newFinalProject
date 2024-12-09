@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import UpdateProductComponent from '../UpdateProductComponent';
 import useProducts from '../../../../products/hooks/useProducts';
-import { Box, Typography, CircularProgress } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import UpdateSingleProduct from '../UpdateSingleProduct';
 import useForm from '../../../../formHelpers/useForm';
 import addProductSchema from '../../../../formHelpers/schemas/addProductSchema';

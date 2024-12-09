@@ -1,6 +1,5 @@
 import { CardMedia, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from '@mui/material'
 import React from 'react'
-import FavoriteIcon from '@mui/icons-material/Favorite';
 
 export default function StatisticsComponent({ allProducts = [], countProductLikes, filter, toTitleCase, countProductsInOrders }) {
     return (

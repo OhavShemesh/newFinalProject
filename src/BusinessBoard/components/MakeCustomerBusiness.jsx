@@ -1,5 +1,5 @@
 import { Box, Button, Input, TextField, Typography } from '@mui/material';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 export default function MakeCustomerBusiness({ customerDetails, toTitleCase, handleOnSubmitSecretCode, wrongCode }) {
     const [enteredCode, setEnteredCode] = useState("")

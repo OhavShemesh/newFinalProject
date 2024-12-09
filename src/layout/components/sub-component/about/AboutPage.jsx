@@ -4,7 +4,6 @@ import React from 'react';
 export default function AboutPage() {
     return (
         <Box sx={{ padding: 4, minHeight: "100vh" }}>
-            {/* About Us Section */}
             <Container sx={{ paddingBottom: 5, display: "flex", flexDirection: 'column', gap: 3 }}>
                 <Typography sx={{ textAlign: 'center', color: "black", paddingBottom: 3 }} variant="h3">
                     ABOUT US
@@ -21,10 +20,8 @@ export default function AboutPage() {
                 </Typography>
             </Container>
 
-            {/* Divider */}
             <Container sx={{ borderBottom: "1px dotted", marginBottom: 5 }}></Container>
 
-            {/* About Me Section */}
             <Container sx={{ paddingBottom: 5, display: "flex", flexDirection: 'column', gap: 3 }}>
                 <Typography sx={{ textAlign: 'center', color: "black", paddingY: 3 }} variant="h3">
                     ABOUT ME

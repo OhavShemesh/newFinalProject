@@ -1,6 +1,5 @@
 import { Box, Card, CardActionArea, CardContent, CardMedia, Grid } from '@mui/material'
-import React, { useEffect } from 'react'
-import { useCustomTheme } from '../../../providers/CustomThemeProvider'
+import React from 'react'
 
 
 export default function UpdateProductComponent({ allProducts, handleFetchProductId, toTitleCase }) {

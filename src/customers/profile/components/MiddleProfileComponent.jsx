@@ -4,13 +4,11 @@ import useForm from '../../../formHelpers/useForm';
 import signupSchema from '../../../formHelpers/schemas/signupSchema';
 import useCustomers from '../../hooks/useCustomers';
 import { useSnack } from '../../../providers/SnackBarProvider';
-import { CircularProgress } from '@mui/material';
 
 export default function MiddleProfileComponent({ formValues, customerDetails, customer }) {
 
     const { updateCustomer } = useCustomers()
     const setSnack = useSnack()
-    const [loading, setLoading] = useState(false);
 
     const handleSubmit = async (data) => {
         try {

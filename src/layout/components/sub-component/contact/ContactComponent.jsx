@@ -4,7 +4,6 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import FormInputs from "../../../../formHelpers/FormInputs"
 import FormTextarea from "../../../../formHelpers/FormTextarea"
 
 export default function ContactComponent({ handleEmailClick, handleChange, error, onSubmit, isFormValid, customer, setSnack }) {

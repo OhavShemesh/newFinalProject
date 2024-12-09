@@ -1,5 +1,5 @@
 import { Box, Button, Card, CardContent, CardMedia, Grid, IconButton, Typography } from '@mui/material';
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 
 export default function DeleteProductsComponent({ handleDeleteProduct, toTitleCase, displayedProducts = [], handleCheckSure, checkSureMap }) {
