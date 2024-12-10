@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import DeleteProductsComponent from '../DeleteProductsComponent'
 import useProducts from '../../../../products/hooks/useProducts'
 import { ClipLoader } from 'react-spinners'
+import { Box } from '@mui/material'
 
 export default function DeleteProductsManager() {
     const { deleteProduct, getProducts, toTitleCase } = useProducts()

@@ -10,6 +10,7 @@ import { useSnack } from '../providers/SnackBarProvider';
 import SetDisplay from './helpers/SetDisplay';
 import ProductComponentTable from './components/ProductComponentTable';
 import { ClipLoader } from 'react-spinners';
+import { useLocation } from 'react-router-dom';
 
 export default function ProductsPage() {
     const { allProducts, navigate, toTitleCase } = useProducts();

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import UpdateStockComponent from '../UpdateStockComponent';
 import useProducts from '../../../../products/hooks/useProducts';
-import { Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import { ClipLoader } from 'react-spinners';
 
 export default function UpdateStockManager() {

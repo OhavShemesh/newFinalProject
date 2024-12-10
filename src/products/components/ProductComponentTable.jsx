@@ -1,4 +1,4 @@
-import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, IconButton, CardMedia, TextField } from "@mui/material";
+import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, IconButton, CardMedia, TextField, Box } from "@mui/material";
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
@@ -21,7 +21,7 @@ export default function ProductComponentTable({
     const cellWidth = "12.5%";
 
     return (
-        <TableContainer sx={{ height: "100vh", overflow: "hidden" }}>
+        <TableContainer sx={{ height: "100vh" }}>
             <Table sx={{ width: "90%", margin: 'auto' }}>
                 <TableHead>
                     <TableRow>
